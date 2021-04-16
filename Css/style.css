@@ -19,7 +19,7 @@
  label{
    font-size: clamp(0.75em, 0.75em + 1vw, 1.5em);
  }
- 
+
  h2{
    font-size: clamp(3.2em, 3.2em + 1vw, 3em);
    color:white;
