@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Css-->
+    <link rel="stylesheet" type="text/css" href="Css/style.css">
+    <!--icon-->
+    <link rel="icon" href="img/logo_superior.png" />
+    <!--Jquery-->
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/jquery-2.2.4.min.js" />
+
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.quicksearch/2.3.1/jquery.quicksearch.js"></script>
+    <!--Title-->
+    <title>Farmácia Santo Antonio</title>
+</head>
+
+<body>
+    <!--Section 0-->
+    <!--navbar- menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+        <a href="#" class="navbar-brand pl-5">
+            <img src="img/logo3.png" style="border-radius: 20px;" height="58" width="250" alt="CoolBrand">
+        </a>
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-2 justify-content-between">
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse pl-5" id="navbarCollapse2">
+            <div class="navbar-nav">
+                <h4>
+            </div>
+            </h4>
+            <form class="form-inline">
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                    <input name="consulta" id="txt_consulta" style="width: 320px; border-radius: 5px 0 0 5px"
+                        placeholder="Consultar produtos" type="text" class="form-control">
+                    <div class="input-group-append">
+                        <a href="./produtos.html" class="btn btn-primary"><i class="fa fa-search"></i></a>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+        <div class="navbar-nav ml-auto pr-5">
+            <h4 class="text-center">Delivery : +55 88 9240-7116</h4>
+        </div>
+
+    </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-center" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="./index.html" class="nav-item active nav-link">
+                    <h5>Home</h5>
+                </a>
+                <a href="./quemSomos.html" class="nav-item nav-link">
+                    <h5>Quem Somos</h5>
+                </a>
+                <a href="./parcerias.html" class="nav-item nav-link">
+                    <h5>Parcerias</h5>
+                </a>
+                <a href="./serviços.html" class="nav-item nav-link">
+                    <h5>Serviços</h5>
+                </a>
+                <a href="./produtos.html" class="nav-item nav-link">
+                    <h5>Produtos</h5>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!--Section 1-->
+    <section id="departamentos">
+        <!--Alinhamento - espaçamento-->
+        <div class="section-title col-md-6 offset-md-3 text-center p-5">
+            <!--estilo texto-->
+            <div style="color:black; background-color: rgba(27, 45, 206, 0.767);border-radius: 15px">
+                <h2>Consulta de Produtos</h2>
+            </div>
+            <table id="tabela" class="table table-hover table-striped  table-responsive text-left">
+
+                <div class="form-group input-group">
+                    <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+                    <input name="consulta" id="txt_consulta" placeholder="Consultar produto" type="text"
+                        class="form-control" style="border-radius: 5px 0 0 5px">
+                    <div class="input-group-append">
+                        <a href="https://api.whatsapp.com/send?phone=558892407116&text=Farmácia%20Santo%20Antonio"
+                            target="_blank" class="btn btn-success">Gostou, peça pelo WhatsApp</a>
+                    </div>
+                </div>
+
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Valor</th>
+                        <th>Desconto</th>
+                        <th>Preço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>CAMOMINE 20 CAPS </th>
+                        <td> R$37,06</td>
+                        <td> 59,53%</td>
+                        <td> R$15,00</td>
+                    </tr>
+                    <tr>
+                        <th>PETIVIT BC XAROPE 240ML </th>
+                        <td> R$21,18</td>
+                        <td> 52,79%</td>
+                        <td> R$10,00</td>
+                    </tr>
+                    <tr>
+                        <th>APEVITIN BC XAROPE 240ML </th>
+                        <td>R$39,38</td>
+                        <td> 69,53%</td>
+                        <td> R$12,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA+ISOMETEPTENO+CAFEÍNA - DORALGINA 4 DRÁGEAS </th>
+                        <td>R$5,89</td>
+                        <td> 66,04%</td>
+                        <td> R$2,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA + ORFENADRINA + CAFEÍNA - DORFLEX 10 COMPRIMIDOS </th>
+                        <td>R$5,89</td>
+                        <td> 15,11%</td>
+                        <td> R$5,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA 500MG/ML GOTAS 10ML </th>
+                        <td>R$6,33</td>
+                        <td> 68,40%</td>
+                        <td> R$2,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA 500MG/ML GOTAS 20ML </th>
+                        <td>R$10,28 </td>
+                        <td> 70,82%</td>
+                        <td> R$3,00</td>
+                    </tr>
+                    <tr>
+                        <th>PARACETAMOL 750MG 20 COMPRIMIDOS</th>
+                        <td>R$17,79</td>
+                        <td> 55,03%</td>
+                        <td> R$8,00</td>
+                    </tr>
+                    <tr>
+                        <th>LAVITAN A-Z 60 COMPRIMIDOS </th>
+                        <td>R$33,00</td>
+                        <td> 33,33%</td>
+                        <td> R$22,00</td>
+                    </tr>
+                    <tr>
+                        <th>LAVITAN A-Z MULHER 60 COMPRIMIDOS </th>
+                        <td>R$33,00</td>
+                        <td> 33,33%</td>
+                        <td> R$22,00</td>
+                    </tr>
+                    <tr>
+                        <th>CENTROFORT A-Z 30 COMPRIMIDOS </th>
+                        <td>R$29,90 </td>
+                        <td> 33,11%</td>
+                        <td> R$20,00</td>
+                    </tr>
+                    <tr>
+                        <th>LORATADINA - LORATAMED 10MG 12 COMPRIMIDOS </th>
+                        <td>R$17,08 </td>
+                        <td> 59,02%</td>
+                        <td> R$7,00</td>
+                    </tr>
+                    <tr>
+                        <th>PARACETAMOL+CLORFENIRAMINA+FENILEFRINA - RESFENOL 5 CÁPSULAS </th>
+                        <td>R$4,98</td>
+                        <td> 29,72%</td>
+                        <td> R$3,50</td>
+                    </tr>
+                    <tr>
+                        <th>RITMONEURAN RTM 20 CÁPSULAS </th>
+                        <td>R$19,20 </td>
+                        <td> 27,08%</td>
+                        <td> R$14,00</td>
+                    </tr>
+                    <tr>
+                        <th>BENEGRIP 6 COMPRIMIDOS </th>
+                        <td>R$11,25</td>
+                        <td> 28,89%</td>
+                        <td> R$8,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA - ANADOR 4 COMPRIMIDOS </th>
+                        <td>R$4,15 </td>
+                        <td> 15,66%</td>
+                        <td> R$3,50</td>
+                    </tr>
+                    <tr>
+                        <th>PARACETAMOL + CLORFENIRAMINA+FENILEFRINA - CIMEGRIPE 20 CÁPSULAS</th>
+                        <td>R$20,53</td>
+                        <td> 61,03%</td>
+                        <td> R$8,00</td>
+                    </tr>
+                    <tr>
+                        <th>SAL DE FRUTA ENO 2 ENVELOPES DE 5G </th>
+                        <td>R$3,25</td>
+                        <td> 7,69%</td>
+                        <td> R$3,00</td>
+                    </tr>
+                    <tr>
+                        <th>SONRISAL 2 COMPRIMIDOS EFERVESCENTES </th>
+                        <td>R$2,01</td>
+                        <td> 12,94%</td>
+                        <td> R$1,75</td>
+                    </tr>
+                    <tr>
+                        <th>PARACETAMOL - TYLEMAX GOTAS 15ML</th>
+                        <td>R$14,35</td>
+                        <td> 82,58%</td>
+                        <td> R$2,50</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA - ATROVERAN DIP 1G 4 COMPRIMIDOS</th>
+                        <td>R$5,99</td>
+                        <td> 33,22%</td>
+                        <td> R$4,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA - MAXALGINA SOLUÇÃO INFANTIL 100ML </th>
+                        <td>R$23,77</td>
+                        <td> 70,55%</td>
+                        <td> R$7,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA - MAXALGINA SOLUÇÃO INFANTIL 100ML + SERINGA DOSADORA </th>
+                        <td>R$24,86 </td>
+                        <td> 63,80%</td>
+                        <td> R$9,00</td>
+                    </tr>
+                    <tr>
+                        <th>DIPIRONA + CAFEÍNA - DORONA CAF 16 COMPRIMIDOS </th>
+                        <td> R$18,09</td>
+                        <td> 33,67%</td>
+                        <td> R$12,00</td>
+                    </tr>
+                    <tr>
+                        <th>SIMETICONA - DIMETIGAS 75MG/ML GOTAS 15ML </th>
+                        <td>R$8,45</td>
+                        <td> 40,83%</td>
+                        <td> R$5,00</td>
+                    </tr>
+                    <tr>
+                        <th>AMBROXOL - BRONQTRAT INFANTIL SABOR FRAMBOESA 100ML </th>
+                        <td>R$37,03 </td>
+                        <td> 78,40%</td>
+                        <td> R$8,00</td>
+                    </tr>
+                    <tr>
+                        <th>IBUPROFENO - BUSCOFEM 400MG 10 CÁPSULAS </th>
+                        <td>R$25,42</td>
+                        <td> 21,32%</td>
+                        <td> R$20,00</td>
+                    </tr>
+                    <tr>
+                        <th>BUSCOPAN GOTAS 20ML </th>
+                        <td>R$17,92</td>
+                        <td> 21,88%</td>
+                        <td> R$14,00</td>
+                    </tr>
+                    <tr>
+                        <th>IBUPROFENO - BUSCOFEM 400MG 2 CÁPSULAS</th>
+                        <td>R$5,99 </td>
+                        <td> 16,53%</td>
+                        <td> R$5,00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="text-center">
+            <!--Jumbotrom - fluid-->
+            <img src="img/banner.png" class="img-fluid py-5" alt="Responsive image">
+        </div>
+    </section>
+
+    <!--Section 3-->
+    <section class="section5 col-12">
+        <div class="row">
+            <div class="promoções col-md-12">
+                <!--Alinhamento- espaçamento-->
+                <div class="section-title text-center p-5">
+                    <h1>Acompanhe nossas Promoções</h1>
+                </div>
+                <!--form group-->
+                <div class="form-group">
+                    <label>Nome completo</label>
+                    <!--form control-->
+                    <input class="form-control" type="text" placeholder="Digite seu nome">
+                </div>
+                <!--form group-->
+                <div class="form-group">
+                    <label>Email</label>
+                    <!--form control-->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon3">Ex: seuemail@dominio.com</span>
+                        </div>
+                        <input class="form-control" type="email" id="email" placeholder="Digite seu email">
+                    </div>
+                </div>
+                <!--form group-->
+                <div class="form-group">
+                    <label>Telefone</label>
+                    <!--form control-->
+                    <input class="form-control" type="tel" id="tel" placeholder="Digite seu Telefone">
+                </div>
+                <!-- textarea -->
+                <!--form group-->
+                <div class="form-group">
+                    <label>Mensagem sobre o contato</label>
+                    <!--form control-->
+                    <textarea class="form-control" id="mensagem" rows="3"></textarea>
+                </div>
+                <div class="col-auto my-1 text-center p-3">
+                    <!--Button btn-->
+                    <button type="submit" class="btn btn-danger" id="botao_lead" onclick="myFunction()"
+                        value="Em pouco tempo já estaremos encaminhando nossas promoções!!!!">Enviar</button>
+                </div>
+                <input class="form-control text-center" type="text" id="resultado"
+                    style="background-color:transparent; color:white; border:none;"><br><br>
+            </div>
+        </div>
+    </section>
+
+
+    <!--footer-->
+    <footer>
+        <div id="bloco1">
+            <div id="parte1">
+                <strong><span>Farmácia Santo Antonio</span></strong><br>
+                <a href="https://www.instagram.com/farmaciasantoantoniotiangua/" target="_blank">
+                    <img id="logoInsta" src="img/instagram.png">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=558892407116&text=Farmácia%20Santo%20Antonio"
+                    target="_blank">
+                    <img id="logoInsta" src="./img/whatsapp.png" alt="" />
+                </a>
+            </div>
+            </div">
+            <div id="parte3">
+                <strong><span>Rua Alcides Bevilaqua, 394 </span></strong><br>
+                <strong><span>Bairro Santo Antonio-Tianguá-CE</span></strong>.
+            </div>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><img width="50px" src="./img/up-arrow.png"
+            alt="" /></button>
+
+    <a href="https://api.whatsapp.com/send?phone=558892407116&text=Farmácia%20Santo%20Antonio" target="_blank"
+        id="btnWhats">
+        <img width="50px" src="./img/whats.png" alt="" />
+    </a>
+
+    <script>
+        $('input#txt_consulta').quicksearch('table#tabela tbody tr');
+    </script>
+
+    <!-- JavaScript-->
+    <script src="js/index.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
