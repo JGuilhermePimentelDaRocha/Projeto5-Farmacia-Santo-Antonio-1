@@ -21,7 +21,7 @@
  }
  
  h2{
-   font-size: clamp(3.2em, 3.2em + 1vw, 3.8em);
+   font-size: clamp(3.2em, 3.2em + 1vw, 3em);
    color:white;
  }
 
